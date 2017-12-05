@@ -1,0 +1,246 @@
+/*Jack Molloy Style*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: none;
+}
+
+p.sub-head{
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+p.sub-head2{
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+p.sub-head3{
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+p.quote{
+  font-style: italic;
+
+}
+
+#map {
+        height: 100%;
+        width: 100%;
+
+       }
+
+#wrapper { position: relative; }
+#over_map { position: absolute; top: 10px; left: 10px; z-index: 99; }
+
+
+#title {
+  position: absolute;
+  width: auto;
+  top: 25px;
+  left: 25px;
+  z-index: 6;
+  background-color: none;
+  padding: 5px;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 10px;
+  color: white;
+  z-index: 1;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
+}
+
+.sm-title {
+  font-family: 'Lobster', cursive;
+  font-size: .7em;
+}
+
+
+.tw-title {
+  z-index: 6;
+  background-color: none;
+  padding: 5px;
+  text-align: left;
+  font-family: 'Roboto','sans-serif';
+  font-size: 20px;
+  color: black;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#floating-panel {
+  position: absolute;
+  width: 340px;
+  top: 200px;
+  left: 25px;
+  z-index: 5;
+  background-color: none;
+  padding: 5px;
+  text-align: left;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#floating-panel-mobile {
+  display: none;
+}
+
+
+.twitter-feed {
+  /*width: 100%;*/
+  max-width: 468px;
+  height: 400px;
+  background-color: #FFF;
+
+}
+
+
+.scrollable-content {
+      overflow-x:hidden;
+      overflow-y:scroll;
+    }
+    .scrollable-content::-webkit-scrollbar {
+      width:10px;
+      border-radius: 5px;
+    }
+    .scrollable-content::-webkit-scrollbar * {
+      background:transparent;
+    }
+    .scrollable-content::-webkit-scrollbar-thumb {
+      background:#999 !important;
+    }
+
+.rating-box {
+  height: 200px;
+  padding-right: 5px;
+  z-index: 9;
+}
+
+
+.twitter-post {
+  display: inline-block;
+  padding: 16px;
+  margin: 0 5px 10px 0;
+  max-width: 468px;
+  border: #ddd 1px solid;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
+  color: #000;
+}
+
+.tw-handle {
+  float: left;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 1.4em;
+}
+
+.tw-pic {
+  float: left;
+  display: block;
+}
+
+.tweet-text {
+  padding-top: 45px;
+  font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
+  margin: 0 5px 10px 0;
+}
+
+
+
+@media only screen and (max-width : 768px) {
+
+  .twitter-feed {
+    width: 100%;
+    background-color: pink;
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+  }
+
+  #floating-panel {
+    display: none;
+  }
+
+  #floating-panel-mobile {
+    position: block;
+    width: 100%;
+    z-index: 7;
+    background-color: red;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+  }
+
+  h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+  }
+
+  .sm-title {
+    font-family: 'Lobster', cursive;
+    font-size: .7em;
+  }
+
+  #title {
+    position: absolute;
+    width: auto;
+    top: 5px;
+    left: 5px;
+    z-index: 6;
+    background-color: none;
+    padding: 5px;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 10px;
+    color: white;
+  }
+
+
+
+}
+
+@media only screen and (min-width : 1400px) {
+
+#floating-panel {
+  position
+  width: 300px;
+  top: 200px;
+  left: 25px;
+  z-index: 5;
+  background-color: none;
+  padding: 5px;
+  text-align: left;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.twitter-feed {
+  /*width: 100%;*/
+  max-width: 468px;
+  height: 600px;
+  background-color: #FFF;
+
+}
+
+
+
+}
